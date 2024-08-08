@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="TaskManager.css">
+</head>
+<body>
+  <header>
+    <nav>
+        <ul>
+            <li id="liUp"><a href="health.html#top">Home</a></li>
+            <li id="liUp"><a href="health.html#AboutUs1">About</a></li>
+            <li id="liUp"><a href="tel:+201127707484">Contact</a></li>
+            <li id="liUp"><a href="tracker.html">Tracking System</a></li>
+
+        </ul>
+    </nav>
+</header>
+
+    <main>
+      <div class="container">
+          <h1>Task Manager</h1>
+          <div class="task-input">
+              <input type="text" id="task-input" placeholder="Add a new task">
+              <button onclick="addTask()">Add Task</button>
+          </div>
+          <ul id="task-list"></ul>
+      </div>
+    </main>
+    <script src="TaskManager.js"></script>
+</body>
+</html>
